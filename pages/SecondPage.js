@@ -8,14 +8,14 @@ import { WebView } from 'react-native-webview';
  
 export default class SecondPage extends Component {
   static navigationOptions = {
-    title: 'ศาลพระอิศวร',
+    title: 'ป้อมวัดช้าง',
     //Sets Header text of Status Bar
   };
   render() {
     return (
       <WebView
         originWhitelist={['*']}
-        source={{ uri: 'http://virtualhistoricalpark.finearts.go.th/kamphaengphet/360/sivashrine.html' }}
+        source={{ uri: 'http://virtualhistoricalpark.finearts.go.th/kamphaengphet/360/watchangfortress.html' }}
       />
     );
   }
